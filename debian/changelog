@@ -1,49 +1,5 @@
-libkdcraw (4:4.7.1-0ubuntu2) oneiric; urgency=low
+libkdcraw (4:4.7.1-0r0) UNRELEASED; urgency=low
 
-  * No-change rebuild so translations aren't stripped from .desktop
-    files anymore.
+  * Initial release. Start from the Ubuntu packaging, thanks!
 
- -- Felix Geyer <debfx-pkg@fobos.de>  Fri, 16 Sep 2011 01:15:12 +0200
-
-libkdcraw (4:4.7.1-0ubuntu1) oneiric; urgency=low
-
-  * New upstream release 
-
- -- Philip Muškovac <yofel@kubuntu.org>  Thu, 08 Sep 2011 09:26:39 -0400
-
-libkdcraw (4:4.7.0-0ubuntu1) oneiric; urgency=low
-
-  [ Felix Geyer ]
-  * Set libkdcraw-data to arch-all.
-  * Drop unused lintian override.
-  * Build-dep on libjpeg62-dev instead of libjpeg-dev to work around LP 816155.
-  * Refer to common license files of GPL-2 and LGPL-2 in debian/copyright.
-
-  [ Philip Muškovac ]
-  * New upstream release.
-
- -- Felix Geyer <debfx-pkg@fobos.de>  Wed, 27 Jul 2011 20:47:47 +0200
-
-libkdcraw (4:4.6.90+repack1-0ubuntu3) oneiric; urgency=low
-
-  * Drop work around for LP: #807573 now that it's fixed
-
- -- Scott Kitterman <scott@kitterman.com>  Fri, 22 Jul 2011 10:04:50 -0400
-
-libkdcraw (4:4.6.90+repack1-0ubuntu2) oneiric; urgency=low
-
-  [ Philip Muškovac ]
-  * Build with CXXFLAGS += -mfloat-abi=soft to work around 
-    launchpad bug #807573 
-
-  [ Scott Kitterman ]
-  * Only set -mfloat-abi=soft on armel
-
- -- Scott Kitterman <scott@kitterman.com>  Tue, 12 Jul 2011 10:07:50 -0400
-
-libkdcraw (4:4.6.90+repack1-0ubuntu1) oneiric; urgency=low
-
-  * New upstream release candidate 
-  * Update for split packaging
-
- -- Philip Muškovac <yofel@kubuntu.org>  Fri, 08 Jul 2011 09:30:26 +0200
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Mon, 26 Sep 2011 20:59:00 +0200
