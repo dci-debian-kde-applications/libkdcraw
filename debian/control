@@ -1,0 +1,59 @@
+Source: libkdcraw
+Section: kde
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Build-Depends: kde-sc-dev-latest (>= 4:4.7.1),
+ cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
+ kdelibs5-dev (>= 4:4.6), liblcms1-dev, libjpeg62-dev
+Standards-Version: 3.9.2
+Homepage: http://www.kde.org/
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/libkdcraw
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/libkdcraw
+
+Package: libkdcraw20
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libkdcraw-data (>= ${source:Version})
+Description: RAW picture decoding C++ library (runtime)
+ C++ interface around dcraw binary program used to decode RAW
+ picture files.
+ .
+ This library is used by kipi-plugins, digiKam, and krita.
+ .
+ libkdcraw20 contains the library of libkdcraw.
+
+Package: libkdcraw-dev
+Section: libdevel
+Architecture: any
+Depends: libkdcraw20 (= ${binary:Version}), ${misc:Depends},
+ ${sameVersionDep:kdelibs5-dev:libkdcraw20}, pkg-config
+Conflicts: libkdcraw5-dev, libkdcraw7-dev, libkdcraw8-dev
+Description: RAW picture decoding C++ library (development)
+ Libkdcraw is a C++ interface around dcraw binary program used to
+ decode Raw picture files.
+ .
+ libkdcraw-dev contains development files and documentation. The
+ library documentation is available on kdcraw.h header file.
+
+Package: libkdcraw-data
+Section: libs
+Architecture: all
+Depends: ${misc:Depends}
+Breaks: kdegraphics-libs-data (<< 4:4.6.80)
+Replaces: kdegraphics-libs-data (<< 4:4.6.80)
+Description: RAW picture decoding C++ library (data files)
+ Libkdcraw is a C++ interface around dcraw binary program used to
+ decode Raw picture files.
+ .
+ libkdcraw20 contains the data files of libkdcraw.
+
+Package: libkdcraw20-dbg
+Section: debug
+Architecture: any
+Priority: extra
+Depends: ${misc:Depends}, libkdcraw20 (= ${binary:Version})
+Replaces: kdegraphics-dbg (<< 4:4.6.80)
+Breaks: kdegraphics-dbg (<< 4:4.6.80)
+Description: RAW picture decoding C++ library (debugging symbols)
+ This package contains debugging files used to investigate problems with
+ libkdcraw.
