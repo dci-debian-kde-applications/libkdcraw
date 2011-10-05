@@ -15,11 +15,11 @@ Package: libkdcraw20
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libkdcraw-data (>= ${source:Version})
-Description: RAW picture decoding C++ library (runtime)
- C++ interface around dcraw binary program used to decode RAW
- picture files.
+Description: RAW picture decoding library
+ Libkdcraw is a Qt interface to the libraw library used to decode
+ RAW picture files.
  .
- This library is used by kipi-plugins, digiKam, and krita.
+ This library is used by kipi-plugins, digiKam, kphotoalbum, and krita.
  .
  libkdcraw20 contains the library of libkdcraw.
 
@@ -29,12 +29,12 @@ Architecture: any
 Depends: libkdcraw20 (= ${binary:Version}), ${misc:Depends},
  ${sameVersionDep:kdelibs5-dev:libkdcraw20}, pkg-config
 Conflicts: libkdcraw5-dev, libkdcraw7-dev, libkdcraw8-dev
-Description: RAW picture decoding C++ library (development)
- Libkdcraw is a C++ interface around dcraw binary program used to
- decode Raw picture files.
+Description: RAW picture decoding library -- development files
+ Libkdcraw is a Qt interface to the libraw library used to decode
+ RAW picture files.
  .
- libkdcraw-dev contains development files and documentation. The
- library documentation is available on kdcraw.h header file.
+ This package contains the development files and the documentation.
+ The library documentation is available in the kdcraw.h header file.
 
 Package: libkdcraw-data
 Section: libs
@@ -42,11 +42,11 @@ Architecture: all
 Depends: ${misc:Depends}
 Breaks: kdegraphics-libs-data (<< 4:4.6.80)
 Replaces: kdegraphics-libs-data (<< 4:4.6.80)
-Description: RAW picture decoding C++ library (data files)
- Libkdcraw is a C++ interface around dcraw binary program used to
- decode Raw picture files.
+Description: RAW picture decoding library -- data files
+ Libkdcraw is a Qt interface to the libraw library used to decode
+ RAW picture files.
  .
- libkdcraw20 contains the data files of libkdcraw.
+ This package contains the data files of the kdcraw library.
 
 Package: libkdcraw20-dbg
 Section: debug
@@ -55,6 +55,9 @@ Priority: extra
 Depends: ${misc:Depends}, libkdcraw20 (= ${binary:Version})
 Replaces: kdegraphics-dbg (<< 4:4.6.80)
 Breaks: kdegraphics-dbg (<< 4:4.6.80)
-Description: RAW picture decoding C++ library (debugging symbols)
- This package contains debugging files used to investigate problems with
+Description: RAW picture decoding library -- debugging symbols
+ Libkdcraw is a Qt interface to the libraw library used to decode
+ RAW picture files.
+ .
+ This package contains the debugging files used to investigate problems with
  libkdcraw.
