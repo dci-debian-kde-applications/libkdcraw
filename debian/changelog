@@ -1,4 +1,4 @@
-libkdcraw (4:4.7.2-0r0) experimental; urgency=low
+libkdcraw (4:4.7.2-1) experimental; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Initial release. Start from the Ubuntu packaging, thanks!
