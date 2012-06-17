@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.1 amd64
+# SymbolsHelper-Confirmed: 4:4.8.4 i386
 libkdcraw.so.20 libkdcraw20 #MINVER#
  _ZN11KDcrawIface11RClickLabel11leftClickedEv@Base 4:4.7.1
  _ZN11KDcrawIface11RClickLabel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.7.1
@@ -12,6 +12,9 @@ libkdcraw.so.20 libkdcraw20 #MINVER#
  _ZN11KDcrawIface11RClickLabelC1ERK7QStringP7QWidget@Base 4:4.7.1
  _ZN11KDcrawIface11RClickLabelC2EP7QWidget@Base 4:4.7.1
  _ZN11KDcrawIface11RClickLabelC2ERK7QStringP7QWidget@Base 4:4.7.1
+ _ZN11KDcrawIface11RClickLabelD0Ev@Base 4:4.8.4
+ _ZN11KDcrawIface11RClickLabelD1Ev@Base 4:4.8.4
+ _ZN11KDcrawIface11RClickLabelD2Ev@Base 4:4.8.4
  _ZN11KDcrawIface12RExpanderBox10addStretchEv@Base 4:4.7.1
  _ZN11KDcrawIface12RExpanderBox10insertItemEiP7QWidgetRK7QPixmapRK7QStringS8_b@Base 4:4.7.1
  _ZN11KDcrawIface12RExpanderBox10insertItemEiP7QWidgetRK7QStringS5_b@Base 4:4.7.1
@@ -108,6 +111,9 @@ libkdcraw.so.20 libkdcraw20 #MINVER#
  _ZN11KDcrawIface16RArrowClickLabel17mouseReleaseEventEP11QMouseEvent@Base 4:4.7.1
  _ZN11KDcrawIface16RArrowClickLabelC1EP7QWidget@Base 4:4.7.1
  _ZN11KDcrawIface16RArrowClickLabelC2EP7QWidget@Base 4:4.7.1
+ _ZN11KDcrawIface16RArrowClickLabelD0Ev@Base 4:4.8.4
+ _ZN11KDcrawIface16RArrowClickLabelD1Ev@Base 4:4.8.4
+ _ZN11KDcrawIface16RArrowClickLabelD2Ev@Base 4:4.8.4
  _ZN11KDcrawIface16SqueezedComboBox10setCurrentERK7QString@Base 4:4.7.1
  _ZN11KDcrawIface16SqueezedComboBox11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.7.1
  _ZN11KDcrawIface16SqueezedComboBox11qt_metacastEPKc@Base 4:4.7.1
@@ -173,6 +179,9 @@ libkdcraw.so.20 libkdcraw20 #MINVER#
  _ZN11KDcrawIface19RSqueezedClickLabelC1ERK7QStringP7QWidget@Base 4:4.7.1
  _ZN11KDcrawIface19RSqueezedClickLabelC2EP7QWidget@Base 4:4.7.1
  _ZN11KDcrawIface19RSqueezedClickLabelC2ERK7QStringP7QWidget@Base 4:4.7.1
+ _ZN11KDcrawIface19RSqueezedClickLabelD0Ev@Base 4:4.8.4
+ _ZN11KDcrawIface19RSqueezedClickLabelD1Ev@Base 4:4.8.4
+ _ZN11KDcrawIface19RSqueezedClickLabelD2Ev@Base 4:4.8.4
  _ZN11KDcrawIface19RawDecodingSettings12readSettingsER12KConfigGroup@Base 4:4.7.1
  _ZN11KDcrawIface19RawDecodingSettings13writeSettingsER12KConfigGroup@Base 4:4.7.1
  _ZN11KDcrawIface19RawDecodingSettings19optimizeTimeLoadingEv@Base 4:4.7.1
@@ -338,10 +347,13 @@ libkdcraw.so.20 libkdcraw20 #MINVER#
  _ZTVN11KDcrawIface6KDcrawE@Base 4:4.7.1
  _ZTVN11KDcrawIface9RComboBoxE@Base 4:4.7.1
  (c++)"non-virtual thunk to KDcrawIface::DcrawSettingsWidget::~DcrawSettingsWidget()@Base" 4:4.7.1
+ (c++)"non-virtual thunk to KDcrawIface::RArrowClickLabel::~RArrowClickLabel()@Base" 4:4.8.4
+ (c++)"non-virtual thunk to KDcrawIface::RClickLabel::~RClickLabel()@Base" 4:4.8.4
  (c++)"non-virtual thunk to KDcrawIface::RComboBox::~RComboBox()@Base" 4:4.7.1
  (c++)"non-virtual thunk to KDcrawIface::RDoubleNumInput::~RDoubleNumInput()@Base" 4:4.7.1
  (c++)"non-virtual thunk to KDcrawIface::RExpanderBox::~RExpanderBox()@Base" 4:4.7.1
  (c++)"non-virtual thunk to KDcrawIface::RExpanderBoxExclusive::~RExpanderBoxExclusive()@Base" 4:4.7.1
  (c++)"non-virtual thunk to KDcrawIface::RIntNumInput::~RIntNumInput()@Base" 4:4.7.1
  (c++)"non-virtual thunk to KDcrawIface::RLabelExpander::~RLabelExpander()@Base" 4:4.7.1
+ (c++)"non-virtual thunk to KDcrawIface::RSqueezedClickLabel::~RSqueezedClickLabel()@Base" 4:4.8.4
  (c++)"non-virtual thunk to KDcrawIface::SqueezedComboBox::~SqueezedComboBox()@Base" 4:4.7.1
