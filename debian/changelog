@@ -6,6 +6,7 @@ libkdcraw (4:4.10.2-1) UNRELEASED; urgency=low
 
   [ Maximiliano Curia ]
   * Add missing authors file refered in the documentation
+  * Update debian/copyright file
 
  -- Sune Vuorela <sune@debian.org>  Sat, 06 Apr 2013 23:13:46 +0000
 
