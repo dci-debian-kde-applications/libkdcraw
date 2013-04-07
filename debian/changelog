@@ -1,4 +1,4 @@
-libkdcraw (4:4.10.2-1) UNRELEASED; urgency=low
+libkdcraw (4:4.10.2-1) experimental; urgency=low
 
   * New upstream release
   * Soname change in libkdcraw
@@ -8,7 +8,7 @@ libkdcraw (4:4.10.2-1) UNRELEASED; urgency=low
   * Add missing authors file refered in the documentation
   * Update debian/copyright file
 
- -- Sune Vuorela <sune@debian.org>  Sat, 06 Apr 2013 23:13:46 +0000
+ -- Sune Vuorela <sune@debian.org>  Sun, 07 Apr 2013 15:59:41 +0000
 
 libkdcraw (4:4.8.4-1) unstable; urgency=low
 
