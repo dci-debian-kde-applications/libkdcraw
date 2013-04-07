@@ -2,7 +2,7 @@ Source: libkdcraw
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: José Manuel Santamaría Lema <panfaust@gmail.com>
+Uploaders: Sune Vuorela <sune@debian.org>
 Build-Depends: kde-sc-dev-latest (>= 4:4.7.2),
  cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
  kdelibs5-dev (>= 4:4.7), liblcms1-dev, libjpeg-dev
@@ -11,7 +11,7 @@ Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/libkdcraw.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/libkdcraw.git
 
-Package: libkdcraw20
+Package: libkdcraw22
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libkdcraw-data (>= ${source:Version})
@@ -26,8 +26,8 @@ Description: RAW picture decoding library
 Package: libkdcraw-dev
 Section: libdevel
 Architecture: any
-Depends: libkdcraw20 (= ${binary:Version}), ${misc:Depends},
- ${sameVersionDep:kdelibs5-dev:libkdcraw20}, pkg-config
+Depends: libkdcraw22 (= ${binary:Version}), ${misc:Depends},
+ ${sameVersionDep:kdelibs5-dev:libkdcraw22}, pkg-config
 Conflicts: libkdcraw5-dev, libkdcraw7-dev, libkdcraw8-dev
 Description: RAW picture decoding library -- development files
  Libkdcraw is a Qt interface to the libraw library used to decode
@@ -48,11 +48,11 @@ Description: RAW picture decoding library -- data files
  .
  This package contains the data files of the kdcraw library.
 
-Package: libkdcraw20-dbg
+Package: libkdcraw22-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: ${misc:Depends}, libkdcraw20 (= ${binary:Version})
+Depends: ${misc:Depends}, libkdcraw22 (= ${binary:Version})
 Replaces: kdegraphics-dbg (<< 4:4.6.80)
 Breaks: kdegraphics-dbg (<< 4:4.6.80)
 Description: RAW picture decoding library -- debugging symbols
