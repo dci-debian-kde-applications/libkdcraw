@@ -21,7 +21,7 @@ Description: RAW picture decoding library
  .
  This library is used by kipi-plugins, digiKam, kphotoalbum, and krita.
  .
- libkdcraw20 contains the library of libkdcraw.
+ This package contains the shared library.
 
 Package: libkdcraw-dev
 Section: libdevel
