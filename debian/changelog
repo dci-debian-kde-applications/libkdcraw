@@ -1,3 +1,8 @@
+libkdcraw (4:4.10.2-3) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 13 Apr 2013 17:52:48 +0200
+
 libkdcraw (4:4.10.2-2) experimental; urgency=low
 
   [ Pino Toscano ]
