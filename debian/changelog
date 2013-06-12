@@ -4,6 +4,7 @@ libkdcraw (4:4.8.4-2) UNRELEASED; urgency=low
   * Bump debhelper build-dep and compat to 9.
   * Bump Standards-Version to 3.9.4.
   * Update vcs fields.
+  * Add myself to uploaders.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 20 Jun 2013 12:22:44 +0200
 
