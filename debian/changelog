@@ -1,6 +1,7 @@
 libkdcraw (4:4.8.4-2) UNRELEASED; urgency=low
 
   * New patch: libkdcraw_CVE-2013-2126.diff. (Closes: #711317).
+  * Bump debhelper build-dep and compat to 9.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 20 Jun 2013 12:22:44 +0200
 
