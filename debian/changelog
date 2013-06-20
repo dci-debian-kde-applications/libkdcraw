@@ -1,4 +1,4 @@
-libkdcraw (4:4.8.4-2) UNRELEASED; urgency=low
+libkdcraw (4:4.8.4-2) unstable; urgency=low
 
   * New patch: libkdcraw_CVE-2013-2126.diff. (Closes: #711317).
   * Bump Standards-Version to 3.9.4.
@@ -6,7 +6,7 @@ libkdcraw (4:4.8.4-2) UNRELEASED; urgency=low
   * Update uploaders field.
   * Add myself to uploaders.
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 20 Jun 2013 12:22:44 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 20 Jun 2013 15:10:38 +0200
 
 libkdcraw (4:4.8.4-1) unstable; urgency=low
 
