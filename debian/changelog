@@ -4,6 +4,7 @@ libkdcraw (4:4.10.5-1) unstable; urgency=low
   * New patch: libkdcraw_CVE-2013-2126.diff. (Closes: #711317)
   * New patch: libkdcraw_CVE-2013-2127.diff.
   * Merge 4:4.8.4-2 from sid.
+  * Add lintian-override for libraw.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Jul 2013 12:58:48 +0200
 
