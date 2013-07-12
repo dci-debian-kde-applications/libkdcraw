@@ -6,7 +6,7 @@ libkdcraw (4:4.10.5-1) unstable; urgency=low
   * Merge 4:4.8.4-2 from sid.
   * Add lintian-override for libraw.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Jul 2013 12:58:48 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Jul 2013 14:44:51 +0200
 
 libkdcraw (4:4.10.4-1) experimental; urgency=low
 
