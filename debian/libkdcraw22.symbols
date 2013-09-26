@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.2 amd64
+# SymbolsHelper-Confirmed: 4:4.11.1 amd64
 libkdcraw.so.22 libkdcraw22 #MINVER#
  .gomp_critical_user_dataupdate@Base 4:4.10.2
  _ZN11KDcrawIface11RClickLabel11leftClickedEv@Base 4:4.7.1
@@ -166,6 +166,7 @@ libkdcraw.so.22 libkdcraw22 #MINVER#
  _ZN11KDcrawIface19DcrawSettingsWidget28setEnabledBrightnessSettingsEb@Base 4:4.7.1
  _ZN11KDcrawIface19DcrawSettingsWidget29signalSixteenBitsImageToggledEb@Base 4:4.7.1
  _ZN11KDcrawIface19DcrawSettingsWidget29slotExposureCorrectionToggledEb@Base 4:4.7.1
+ _ZN11KDcrawIface19DcrawSettingsWidget30slotExpoCorrectionShiftChangedEd@Base 4:4.11.1
  _ZN11KDcrawIface19DcrawSettingsWidget5setupEi@Base 4:4.7.1
  _ZN11KDcrawIface19DcrawSettingsWidgetC1EP7QWidgeti@Base 4:4.7.1
  _ZN11KDcrawIface19DcrawSettingsWidgetC2EP7QWidgeti@Base 4:4.7.1
