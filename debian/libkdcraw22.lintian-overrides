@@ -1,2 +1,2 @@
 # Currently being discussed with upstream
-libkdcraw22: embedded-library usr/lib/libkdcraw.so.22.0.0: libraw
+libkdcraw22: embedded-library usr/lib/libkdcraw.so.22.*: libraw
