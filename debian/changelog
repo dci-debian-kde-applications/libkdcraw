@@ -4,6 +4,7 @@ libkdcraw (4:4.11.1-0r0) UNRELEASED; urgency=low
   * Remove patches already applied by upstream.
   * Update symbols file.
   * Update lintian-override.
+  * Refresh patch.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 03 Sep 2013 20:16:38 +0200
 
