@@ -7,6 +7,17 @@ libkdcraw (4:4.11.1-0r0) UNRELEASED; urgency=low
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 03 Sep 2013 20:16:38 +0200
 
+libkdcraw (4:4.10.5-2) UNRELEASED; urgency=low
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Add libkdcraw_CVE-2013-143x.diff to fix multiple vulnerabilities
+    (Closes: #721239, #721340).
+    - CVE-2013-1438.
+    - CVE-2013-1439.
+    Thanks Scott Kitterman for the patch.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 01 Oct 2013 14:30:05 -0300
+
 libkdcraw (4:4.10.5-1) unstable; urgency=low
 
   * New upstream release.
