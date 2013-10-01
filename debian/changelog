@@ -6,6 +6,7 @@ libkdcraw (4:4.10.5-2) UNRELEASED; urgency=low
     - CVE-2013-1438.
     - CVE-2013-1439.
     Thanks Scott Kitterman for the patch.
+  * Add missing line break in debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 01 Oct 2013 14:30:05 -0300
 
