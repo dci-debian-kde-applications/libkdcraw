@@ -1,3 +1,7 @@
+libkdcraw (4:4.10.5-2) UNRELEASED; urgency=low
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 01 Oct 2013 14:30:05 -0300
+
 libkdcraw (4:4.10.5-1) unstable; urgency=low
 
   * New upstream release.
