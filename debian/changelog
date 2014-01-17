@@ -1,4 +1,4 @@
-libkdcraw (4:4.11.5-1) UNRELEASED; urgency=low
+libkdcraw (4:4.11.5-1) unstable; urgency=low
 
   * New upstream release.
   * Enable build failures on missing symbols.
@@ -7,7 +7,7 @@ libkdcraw (4:4.11.5-1) UNRELEASED; urgency=low
   * Add autopkgtests.
   * Add abi-compliance-checker info.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 17 Jan 2014 13:30:57 -0300
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 17 Jan 2014 13:45:09 -0300
 
 libkdcraw (4:4.11.3-1) unstable; urgency=low
 
