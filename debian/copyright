@@ -144,7 +144,7 @@ License: MIT/X11
 Files: debian/*
 Copyright: 2011 Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 License: GPL-2+
- 
+
 License: GPL-2+
  This program is free software; you can redistribute it
  and/or modify it under the terms of the GNU General
@@ -206,7 +206,7 @@ License: BSD-3-clause
  2. Redistributions in binary form must reproduce the copyright
  notice, this list of conditions and the following disclaimer in the
  documentation and/or other materials provided with the distribution.
- 3. The name of the author may not be used to endorse or promote products 
+ 3. The name of the author may not be used to endorse or promote products
  derived from this software without specific prior written permission.
  .
  THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
@@ -224,10 +224,10 @@ License: LibRaw license
  LibRaw is free software; you can redistribute it and/or modify
  it under the terms of the one of three licenses as you choose:
  .
- 1. GNU LESSER GENERAL PUBLIC LICENSE version 2.1 
+ 1. GNU LESSER GENERAL PUBLIC LICENSE version 2.1
  (See file LICENSE.LGPL provided in LibRaw distribution archive for details).
  .
- 2. COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0 
+ 2. COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0
  (See file LICENSE.CDDL provided in LibRaw distribution archive for details).
  .
  3. LibRaw Software License 27032010
@@ -238,4 +238,3 @@ License: LibRaw license
  .
  LibRaw uses DCB demosaic and FBDD denoise licensed under BSD-like 3-clause license
  DCB and FBDD are Copyright (C) 2010,  Jacek Gozdz (cuniek@kft.umcs.lublin.pl)
-

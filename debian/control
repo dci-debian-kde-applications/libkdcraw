@@ -2,14 +2,15 @@ Source: libkdcraw
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Sune Vuorela <sune@debian.org>,
-           Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.11),
- libjpeg-dev,
- liblcms2-dev,
- pkg-config,
+Uploaders: Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               libjpeg-dev,
+               liblcms2-dev,
+               pkg-config,
+               pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.5
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/libkdcraw.git
@@ -18,7 +19,9 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/libkdcraw.git
 Package: libkdcraw22
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libkdcraw-data (>= ${source:Version})
+Depends: libkdcraw-data (>= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: RAW picture decoding library
  Libkdcraw is a Qt interface to the libraw library used to decode
  RAW picture files.
@@ -30,8 +33,10 @@ Description: RAW picture decoding library
 Package: libkdcraw-dev
 Section: libdevel
 Architecture: any
-Depends: libkdcraw22 (= ${binary:Version}), ${misc:Depends},
- ${sameVersionDep:kdelibs5-dev:libkdcraw22}, pkg-config
+Depends: libkdcraw22 (= ${binary:Version}),
+         pkg-config,
+         ${misc:Depends},
+         ${sameVersionDep:kdelibs5-dev:libkdcraw22}
 Conflicts: libkdcraw5-dev, libkdcraw7-dev, libkdcraw8-dev
 Description: RAW picture decoding library -- development files
  Libkdcraw is a Qt interface to the libraw library used to decode
@@ -56,7 +61,7 @@ Package: libkdcraw22-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: ${misc:Depends}, libkdcraw22 (= ${binary:Version})
+Depends: libkdcraw22 (= ${binary:Version}), ${misc:Depends}
 Replaces: kdegraphics-dbg (<< 4:4.6.80)
 Breaks: kdegraphics-dbg (<< 4:4.6.80)
 Description: RAW picture decoding library -- debugging symbols
