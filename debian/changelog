@@ -1,9 +1,9 @@
-libkdcraw (4:4.12.3-1) UNRELEASED; urgency=medium
+libkdcraw (4:4.12.3-1~) UNRELEASED; urgency=medium
 
   * New upstream release.
   * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 28 Feb 2014 23:24:57 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 28 Feb 2014 23:27:39 +0100
 
 libkdcraw (4:4.11.5-1) unstable; urgency=low
 
