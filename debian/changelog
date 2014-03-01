@@ -5,6 +5,7 @@ libkdcraw (4:4.12.3-1~) UNRELEASED; urgency=medium
   * Remove patch: libkdcraw_CVE-2013-143x.diff, upstream removed
     embedded libraw code.
   * Add libraw-dev as build-dep.
+  * Soversion bump for libkdcraw.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 28 Feb 2014 23:27:39 +0100
 

@@ -15,7 +15,7 @@ Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/libkdcraw.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/libkdcraw.git
 
-Package: libkdcraw22
+Package: libkdcraw23
 Section: libs
 Architecture: any
 Depends: libkdcraw-data (>= ${source:Version}),
@@ -32,10 +32,10 @@ Description: RAW picture decoding library
 Package: libkdcraw-dev
 Section: libdevel
 Architecture: any
-Depends: libkdcraw22 (= ${binary:Version}),
+Depends: libkdcraw23 (= ${binary:Version}),
          pkg-config,
          ${misc:Depends},
-         ${sameVersionDep:kdelibs5-dev:libkdcraw22}
+         ${sameVersionDep:kdelibs5-dev:libkdcraw23}
 Conflicts: libkdcraw5-dev, libkdcraw7-dev, libkdcraw8-dev
 Description: RAW picture decoding library -- development files
  Libkdcraw is a Qt interface to the libraw library used to decode
@@ -56,11 +56,11 @@ Description: RAW picture decoding library -- data files
  .
  This package contains the data files of the kdcraw library.
 
-Package: libkdcraw22-dbg
+Package: libkdcraw23-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: libkdcraw22 (= ${binary:Version}), ${misc:Depends}
+Depends: libkdcraw23 (= ${binary:Version}), ${misc:Depends}
 Replaces: kdegraphics-dbg (<< 4:4.6.80)
 Breaks: kdegraphics-dbg (<< 4:4.6.80)
 Description: RAW picture decoding library -- debugging symbols
