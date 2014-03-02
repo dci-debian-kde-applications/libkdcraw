@@ -7,6 +7,7 @@ libkdcraw (4:4.12.3-1~) UNRELEASED; urgency=medium
   * Add libraw-dev as build-dep.
   * Soversion bump for libkdcraw.
   * Update install files.
+  * Add symbols file for the new soversion.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 28 Feb 2014 23:27:39 +0100
 
