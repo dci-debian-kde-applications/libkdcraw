@@ -1,4 +1,4 @@
-libkdcraw (4:4.12.3-1~) UNRELEASED; urgency=medium
+libkdcraw (4:4.12.3-1) experimental; urgency=medium
 
   * New upstream release.
   * New upstream release.
@@ -9,7 +9,7 @@ libkdcraw (4:4.12.3-1~) UNRELEASED; urgency=medium
   * Update install files.
   * Add symbols file for the new soversion.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 28 Feb 2014 23:27:39 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Mar 2014 00:05:47 +0100
 
 libkdcraw (4:4.11.5-1) unstable; urgency=low
 
