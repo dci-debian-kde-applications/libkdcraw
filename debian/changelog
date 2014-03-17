@@ -1,6 +1,6 @@
 libkdcraw (4:4.12.3-2) UNRELEASED; urgency=medium
 
-  * 
+  * Remove libraw references from copyright file.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 17 Mar 2014 16:07:16 +0100
 
