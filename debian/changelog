@@ -1,6 +1,5 @@
 libkdcraw (4:4.13.1-2) UNRELEASED; urgency=medium
 
-  * 
   * Drop obsolete cmake option -DENABLE_LCMS2=ON as that's now the only
     supported version. (Closes: #749933) Thanks to Jonathan Riddell
 
