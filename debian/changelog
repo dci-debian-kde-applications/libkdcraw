@@ -1,3 +1,12 @@
+libkdcraw (4:14.11.95-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream beta release.
+  * Fix watch urls for new release location.
+  * Update Vcs urls for the new repository location.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sat, 22 Nov 2014 11:38:36 +0100
+
 libkdcraw (4:4.14.0-1) unstable; urgency=medium
 
   * New upstream release.
