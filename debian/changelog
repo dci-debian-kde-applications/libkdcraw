@@ -1,11 +1,15 @@
-libkdcraw (4:14.11.97-0ubuntu1) UNRELEASED; urgency=medium
+libkdcraw (4:14.11.97-0ubuntu1~ubuntu15.04~ppa3) vivid; urgency=medium
 
+  [ Philip Muškovac ]
   * New upstream release candidate.
   * Fix watch urls for new release location.
   * Update Vcs urls for the new repository location.
   * Bump Standards-Version to 3.9.6, no changes needed.
 
- -- Philip Muškovac <yofel@kubuntu.org>  Sat, 22 Nov 2014 11:38:36 +0100
+  [ Jonathan Riddell ]
+  * PPA build
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 04 Dec 2014 13:19:29 +0100
 
 libkdcraw (4:4.14.0-1) unstable; urgency=medium
 
