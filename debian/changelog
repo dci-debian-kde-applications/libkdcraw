@@ -1,4 +1,4 @@
-libkdcraw (4:14.11.97-0ubuntu1~ubuntu15.04~ppa3) vivid; urgency=medium
+libkdcraw (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
   [ Philip Muškovac ]
   * New upstream release candidate.
