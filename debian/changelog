@@ -1,7 +1,13 @@
+libkdcraw (4:14.12.2-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (14.12.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 20 Feb 2015 00:14:51 +0100
+
 libkdcraw (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
-  * Remove unstable from watch file, uscan fails with 
+  * Remove unstable from watch file, uscan fails with
     remote site does not even have current version
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 08:35:49 -0800
