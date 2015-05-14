@@ -1,9 +1,10 @@
-libkdcraw (4:15.04.0-0ubuntu1) UNRELEASED; urgency=medium
+libkdcraw (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
   * Increase kdelib version
+  * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 28 Apr 2015 14:29:11 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 14 May 2015 06:31:53 -0700
 
 libkdcraw (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
