@@ -8,6 +8,10 @@ libkdcraw (4:15.04.2-0ubuntu1) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * New upstream release
 
+  [ José Manuel Santamaría Lema ]
+  * Add upstream_libraw-0.16.1-needs-exceptions.patch in order to avoid
+    FTBFS'ing because of latest libraw.
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 06 Jun 2015 02:12:04 +0200
 
 libkdcraw (4:14.12.3-0ubuntu1) vivid; urgency=medium
