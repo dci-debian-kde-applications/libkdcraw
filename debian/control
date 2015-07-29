@@ -7,7 +7,7 @@ Build-Depends: cmake,
                debhelper (>= 9),
                kde-sc-dev-latest (>= 4:4.11),
                kdelibs5-dev,
-               libraw-dev (>= 0.15),
+               libraw-dev (>= 0.16.1),
                libx11-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12)

@@ -1,8 +1,17 @@
-libkdcraw (4:15.04.0-1~) UNRELEASED; urgency=medium
+libkdcraw (4:15.04.3-1) unstable; urgency=medium
 
+  * Upload to unstable
+
+  [ Maximiliano Curia ]
   * New upstream release (15.04.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 16:33:55 +0200
+  [ Scott Kitterman ]
+  * Urgency high for RC bug fix
+  * Add debian/patches/libraw0.16.1_compatibility.diff from upstream to fix
+    compatibility issues with libraw 0.16.1 and later (Closes: #788975)
+    - Bump mimimum libraw version in debian/control
+
+ -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 29 Jul 2015 00:33:19 -0400
 
 libkdcraw (4:14.12.2-1) experimental; urgency=medium
 
