@@ -1,6 +1,7 @@
 libkdcraw (4:15.08.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (15.08.0).
+  * Remove upstream patch: libraw0.16.1_compatibility.diff
 
  -- Maximiliano Curia <maxy@debian.org>  Sun, 30 Aug 2015 22:21:26 +0200
 
