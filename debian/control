@@ -1,4 +1,4 @@
-Source: libkdcraw
+Source: libkf5kdcraw
 Section: kde
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
@@ -16,11 +16,10 @@ Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/libkdcraw.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/libkdcraw.git
 
-Package: libkdcraw23
+Package: libkf5kdcraw5
 Section: libs
 Architecture: any
-Depends: libkdcraw-data (>= ${source:Version}),
-         ${misc:Depends},
+Depends: ${misc:Depends},
          ${shlibs:Depends}
 Description: RAW picture decoding library
  Libkdcraw is a Qt interface to the libraw library used to decode
@@ -30,43 +29,15 @@ Description: RAW picture decoding library
  .
  This package contains the shared library.
 
-Package: libkdcraw-dev
+Package: likf5bkdcraw-dev
 Section: libdevel
 Architecture: any
-Depends: libkdcraw23 (= ${binary:Version}),
+Depends: libkf5kdcraw5 (= ${binary:Version}),
          pkg-config,
-         ${misc:Depends},
-         ${sameVersionDep:kdelibs5-dev:libkdcraw23}
-Conflicts: libkdcraw5-dev, libkdcraw7-dev, libkdcraw8-dev
+         ${misc:Depends}
 Description: RAW picture decoding library -- development files
  Libkdcraw is a Qt interface to the libraw library used to decode
  RAW picture files.
  .
  This package contains the development files and the documentation.
  The library documentation is available in the kdcraw.h header file.
-
-Package: libkdcraw-data
-Section: libs
-Architecture: all
-Depends: ${misc:Depends}
-Breaks: kdegraphics-libs-data (<< 4:4.6.80)
-Replaces: kdegraphics-libs-data (<< 4:4.6.80)
-Description: RAW picture decoding library -- data files
- Libkdcraw is a Qt interface to the libraw library used to decode
- RAW picture files.
- .
- This package contains the data files of the kdcraw library.
-
-Package: libkdcraw23-dbg
-Section: debug
-Architecture: any
-Priority: extra
-Depends: libkdcraw23 (= ${binary:Version}), ${misc:Depends}
-Replaces: kdegraphics-dbg (<< 4:4.6.80)
-Breaks: kdegraphics-dbg (<< 4:4.6.80)
-Description: RAW picture decoding library -- debugging symbols
- Libkdcraw is a Qt interface to the libraw library used to decode
- RAW picture files.
- .
- This package contains the debugging files used to investigate problems with
- libkdcraw.
