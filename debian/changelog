@@ -1,8 +1,13 @@
 libkdcraw (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Philip Muškovac ]
   * New upstream release 
 
- -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 13:42:05 +0100
+  [ Clive Johnston ]
+  * Adding new build deps
+  * Bumping /usr/share/pkg-kde-tools/qt-kde-team/2 to 3  
+
+ -- Clive Johnston <clivejo@aol.com>  Thu, 07 Jan 2016 22:45:07 +0000
 
 libkdcraw (4:15.08.2-0ubuntu1) wily; urgency=medium
 
