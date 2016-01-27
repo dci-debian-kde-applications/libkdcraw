@@ -29,7 +29,7 @@ Description: RAW picture decoding library
  .
  This package contains the shared library.
 
-Package: likf5bkdcraw-dev
+Package: libkf5kdcraw-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5kdcraw5 (= ${binary:Version}),
