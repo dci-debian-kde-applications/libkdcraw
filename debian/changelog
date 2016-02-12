@@ -1,4 +1,4 @@
-libkdcraw (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
+libkdcraw (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Philip Muškovac ]
   * New upstream release 
@@ -6,6 +6,10 @@ libkdcraw (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Clive Johnston ]
   * Adding new build deps
   * Bumping /usr/share/pkg-kde-tools/qt-kde-team/2 to 3  
+
+  [ Scarlett Clark ]
+  * Debian merge: No remaining changes.
+  * New upstream release. 
 
  -- Clive Johnston <clivejo@aol.com>  Thu, 07 Jan 2016 22:45:07 +0000
 
@@ -21,6 +25,19 @@ libkdcraw (4:15.08.1-0ubuntu1) wily; urgency=medium
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 17:38:51 +0100
 
+libkf5kdcraw (15.12.0-1) experimental; urgency=medium
+
+  * New upstream release (15.12.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:23:50 +0100
+
+libkdcraw (4:15.08.0-1) unstable; urgency=medium
+
+  * New upstream release (15.08.0).
+  * Remove upstream patch: libraw0.16.1_compatibility.diff
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 30 Aug 2015 22:30:31 +0200
+
 libkdcraw (4:15.08.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
@@ -32,6 +49,21 @@ libkdcraw (4:15.07.90-0ubuntu1) wily; urgency=medium
   * new upstream beta release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 11:23:03 +0100
+
+libkdcraw (4:15.04.3-1) unstable; urgency=medium
+
+  * Upload to unstable
+
+  [ Maximiliano Curia ]
+  * New upstream release (15.04.0).
+
+  [ Scott Kitterman ]
+  * Urgency high for RC bug fix
+  * Add debian/patches/libraw0.16.1_compatibility.diff from upstream to fix
+    compatibility issues with libraw 0.16.1 and later (Closes: #788975)
+    - Bump mimimum libraw version in debian/control
+
+ -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 29 Jul 2015 00:33:19 -0400
 
 libkdcraw (4:15.04.2-0ubuntu1) wily; urgency=medium
 
@@ -55,10 +87,16 @@ libkdcraw (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 13:20:10 -0700
 
+libkdcraw (4:14.12.2-1) experimental; urgency=medium
+
+  * New upstream release (14.12.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 20 Feb 2015 08:52:34 +0100
+
 libkdcraw (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
-  * Remove unstable from watch file, uscan fails with 
+  * Remove unstable from watch file, uscan fails with
     remote site does not even have current version
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 08:35:49 -0800
@@ -239,7 +277,7 @@ libkdcraw (4:4.7.4-2) unstable; urgency=low
 libkdcraw (4:4.7.4-1) experimental; urgency=low
 
   * New upstream release.
-  
+
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.7.4.
 
