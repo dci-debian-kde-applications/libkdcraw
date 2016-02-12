@@ -1,4 +1,4 @@
-libkf5kdcraw (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+libkf5kdcraw (15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Philip Muškovac ]
   * New upstream release 
@@ -11,6 +11,7 @@ libkf5kdcraw (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   * Debian merge: No remaining changes.
   * New upstream release. 
   * Rename to libkf5kdcraw to coexist with qt4 version following debian. 
+  * Drop epoch due to rename.
 
  -- Clive Johnston <clivejo@aol.com>  Thu, 07 Jan 2016 22:45:07 +0000
 
