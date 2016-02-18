@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 15.12.0 amd64
-libKF5KDcraw.so.5 libkf5kdcraw5#MINVER#
+libKF5KDcraw.so.5 libkf5kdcraw5 #MINVER#
  _ZN11KDcrawIface18DcrawInfoContainer7isEmptyEv@Base 4.12.3
  _ZN11KDcrawIface18DcrawInfoContainerC1Ev@Base 4.12.3
  _ZN11KDcrawIface18DcrawInfoContainerC2Ev@Base 4.12.3

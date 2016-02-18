@@ -12,8 +12,15 @@ libkf5kdcraw (15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream release. 
   * Rename to libkf5kdcraw to coexist with qt4 version following debian. 
   * Drop epoch due to rename.
+  * Fix changelog entry order. 
 
  -- Clive Johnston <clivejo@aol.com>  Thu, 07 Jan 2016 22:45:07 +0000
+
+libkf5kdcraw (15.12.0-1) experimental; urgency=medium
+
+  * New upstream release (15.12.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:23:50 +0100
 
 libkdcraw (4:15.08.2-0ubuntu1) wily; urgency=medium
 
@@ -26,12 +33,6 @@ libkdcraw (4:15.08.1-0ubuntu1) wily; urgency=medium
   * New upstream release (15.08.1)
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 17:38:51 +0100
-
-libkf5kdcraw (15.12.0-1) experimental; urgency=medium
-
-  * New upstream release (15.12.0).
-
- -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:23:50 +0100
 
 libkdcraw (4:15.08.0-1) unstable; urgency=medium
 
