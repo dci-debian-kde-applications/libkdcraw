@@ -1,4 +1,4 @@
-libkf5kdcraw (15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+libkf5kdcraw (15.12.1-0ubuntu1) xenial; urgency=medium
 
   [ Philip Muškovac ]
   * New upstream release 
@@ -14,7 +14,7 @@ libkf5kdcraw (15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   * Drop epoch due to rename.
   * Fix changelog entry order. 
 
- -- Clive Johnston <clivejo@aol.com>  Thu, 07 Jan 2016 22:45:07 +0000
+ -- Clive Johnston <clivejo@aol.com>  Wed, 09 Mar 2016 11:27:29 +0100
 
 libkf5kdcraw (15.12.0-1) experimental; urgency=medium
 
