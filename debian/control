@@ -19,8 +19,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/libkdcraw.git
 Package: libkf5kdcraw5
 Section: libs
 Architecture: any
-Depends: ${misc:Depends},
-         ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: RAW picture decoding library
  Libkdcraw is a Qt interface to the libraw library used to decode
  RAW picture files.
@@ -32,9 +31,7 @@ Description: RAW picture decoding library
 Package: libkf5kdcraw-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5kdcraw5 (= ${binary:Version}),
-         pkg-config,
-         ${misc:Depends}
+Depends: libkf5kdcraw5 (= ${binary:Version}), pkg-config, ${misc:Depends}
 Description: RAW picture decoding library -- development files
  Libkdcraw is a Qt interface to the libraw library used to decode
  RAW picture files.
