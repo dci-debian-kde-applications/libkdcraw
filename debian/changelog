@@ -1,10 +1,11 @@
-libkf5kdcraw (15.12.0-2~1.gbp04624e) UNRELEASED; urgency=medium
+libkf5kdcraw (16.04.0-1~1.gbp7e1bb6) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @04624e0453d1a9441d09201e5c348f5eaf44932a **
+  ** SNAPSHOT build @7e1bb6d4f9456a21a0914ca7905d7a89d4cfa9f8 **
 
   * Bump Standards-Version to 3.9.8
+  * UNRELEASED
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:36:02 +0200
+ -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Thu, 21 Apr 2016 02:35:13 +0200
 
 libkf5kdcraw (15.12.0-1) experimental; urgency=medium
 
