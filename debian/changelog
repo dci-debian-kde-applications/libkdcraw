@@ -1,12 +1,13 @@
-libkf5kdcraw (16.04.0-1~2.gbp06a9ae) UNRELEASED; urgency=medium
+libkf5kdcraw (16.04.0-1) experimental; urgency=medium
 
-  ** SNAPSHOT build @06a9ae8eb0caab3b831d77e2297151ab12953b61 **
-
+  [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
-  * UNRELEASED
-  * UNRELEASED
 
- -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Sat, 30 Apr 2016 20:03:48 +0200
+  [ Maximiliano Curia ]
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 05 May 2016 08:56:05 +0200
 
 libkf5kdcraw (15.12.0-1) experimental; urgency=medium
 
