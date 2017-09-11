@@ -10,11 +10,22 @@ Build-Depends: cmake (>= 2.8.12~),
                libx11-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12),
-               qtbase5-dev (>= 5.2.0~)
+               qtbase5-dev (>= 5.2.0~),
 Standards-Version: 4.1.0
 Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/libkdcraw.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/libkdcraw.git
+
+Package: libkf5kdcraw-dev
+Section: libdevel
+Architecture: any
+Depends: libkf5kdcraw5 (= ${binary:Version}), pkg-config, ${misc:Depends}
+Description: RAW picture decoding library -- development files
+ Libkdcraw is a Qt interface to the libraw library used to decode
+ RAW picture files.
+ .
+ This package contains the development files and the documentation.
+ The library documentation is available in the kdcraw.h header file.
 
 Package: libkf5kdcraw5
 Section: libs
@@ -27,14 +38,3 @@ Description: RAW picture decoding library
  This library is used by kipi-plugins, digiKam, kphotoalbum, and krita.
  .
  This package contains the shared library.
-
-Package: libkf5kdcraw-dev
-Section: libdevel
-Architecture: any
-Depends: libkf5kdcraw5 (= ${binary:Version}), pkg-config, ${misc:Depends}
-Description: RAW picture decoding library -- development files
- Libkdcraw is a Qt interface to the libraw library used to decode
- RAW picture files.
- .
- This package contains the development files and the documentation.
- The library documentation is available in the kdcraw.h header file.
