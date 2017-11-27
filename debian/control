@@ -31,7 +31,10 @@ Description: RAW picture decoding library
 Package: libkf5kdcraw-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5kdcraw5 (= ${binary:Version}), pkg-config, ${misc:Depends}
+Depends: libkf5kdcraw5 (= ${binary:Version}),
+         pkg-config,
+         qtbase5-dev,
+         ${misc:Depends}
 Description: RAW picture decoding library -- development files
  Libkdcraw is a Qt interface to the libraw library used to decode
  RAW picture files.
