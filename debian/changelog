@@ -8,6 +8,8 @@ libkf5kdcraw (17.08.3-0r1) UNRELEASED; urgency=medium
     automatically.
   * Remove pkg-config dependency in libkf5kdcraw-dev, since it is no more
     needed now.
+  * Remove the gwenview, and kdegraphics-thumbnailers breaks in libkf5kdcraw5,
+    since it is not needed.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 Dec 2017 13:58:48 +0100
 

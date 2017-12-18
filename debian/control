@@ -38,4 +38,3 @@ Description: RAW picture decoding library
  This library is used by kipi-plugins, digiKam, kphotoalbum, and krita.
  .
  This package contains the shared library.
-Breaks: gwenview (<< 4:17.08), kdegraphics-thumbnailers (<< 4:17.08)
