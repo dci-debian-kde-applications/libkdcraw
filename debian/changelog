@@ -1,3 +1,10 @@
+libkf5kdcraw (17.08.3-0r1) UNRELEASED; urgency=medium
+
+  [ Pino Toscano ]
+  * New upstream release.
+
+ -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 Dec 2017 13:58:48 +0100
+
 libkf5kdcraw (17.08.1-1) experimental; urgency=medium
 
   * New upstream release (17.08.1)
