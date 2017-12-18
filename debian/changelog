@@ -6,6 +6,8 @@ libkf5kdcraw (17.08.3-0r1) UNRELEASED; urgency=medium
   * Simplify watch file, and switch it to https.
   * Remove kde-runtime exclusion from shlibdeps, since it is no more injected
     automatically.
+  * Remove pkg-config dependency in libkf5kdcraw-dev, since it is no more
+    needed now.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 Dec 2017 13:58:48 +0100
 
